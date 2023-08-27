@@ -1,0 +1,14 @@
+[user]
+	email = abdullah.khawahir@gmail.com
+	name = Abdullah Khawahir
+[init]
+	defaultBranch = main
+[safe]
+	directory = /opt/flutter
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[core]
+	editor = nano

@@ -1,0 +1,92 @@
+{
+    "window.zoomLevel": -0.4,
+    "editor.fontSize": 16,
+    "editor.minimap.enabled": false,
+    "editor.minimap.scale": 1,
+    "editor.minimap.renderCharacters": false,
+    "editor.minimap.size": "proportional",
+    "workbench.colorTheme": "Default Dark Modern",
+    "debug.toolBarLocation": "docked",
+    "javascript.preferences.importModuleSpecifier": "relative",
+    "telemetry.telemetryLevel": "off",
+    "workbench.iconTheme": "material-icon-theme",
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "[dart]": {
+        "editor.formatOnSave": true,
+        "editor.formatOnType": true,
+        "editor.rulers": [
+            {
+                "color": "#00000f",
+                "column": 80
+            }
+        ],
+        "editor.selectionHighlight": false,
+        "editor.suggestSelection": "first",
+        "editor.tabCompletion": "onlySnippets",
+        "editor.wordBasedSuggestions": false
+    },
+    "cSpell.enabled": true,
+    "dart.cliConsole": "terminal",
+    "git.openRepositoryInParentFolders": "never",
+    "[rust]": {
+        "editor.defaultFormatter": "rust-lang.rust-analyzer"
+    },
+    "workbench.startupEditor": "none",
+    "boot-java.rewrite.reconcile": true,
+    /**********************************/
+    /************Erorr Lens************/
+    /**********************************/
+    "errorLens.borderRadius": "5em 0px",
+    "errorLens.enabledDiagnosticLevels": [
+        "error",
+        "warning",
+    ],
+    "errorLens.fontSize": "11px",
+    "errorLens.fontWeight": "100",
+    "errorLens.messageBackgroundMode": "message",
+    "errorLens.margin": "2ch",
+    "errorLens.replaceLinebreaksSymbol": "⏎",
+    /**********************************/
+    "search.exclude": {
+        "**/node_modules": true,
+        "**/bower_components": true,
+        "**/env": true,
+        "**/venv": true
+    },
+    "files.watcherExclude": {
+        "**/.git/objects/**": true,
+        "**/.git/subtree-cache/**": true,
+        "**/env/**": true,
+        "**/node_modules/**": true,
+        "**/venv/**": true,
+        "env-*": true
+    },
+    // "files.exclude": {
+    //     "**/.git": true,
+    //     "**/.DS_Store": true,
+    //     "**/.vscode": true,
+    //     "**/__pycache__": true,
+    //     "**/.pytest_cache": true,
+    //     "**/node_modules": true,
+    //     "venv": true,
+    //     "*.sublime-*": true,
+    //     "env*": true
+    // },
+    "redhat.telemetry.enabled": false,
+    "java.jdt.ls.androidSupport.enabled": "off",
+    "window.menuBarVisibility": "toggle",
+    "spring-boot.ls.problem.boot2.JAVA_LAMBDA_DSL": "IGNORE",
+    "terminal.integrated.env.linux": {},
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "java.progressReports.enabled": false,
+    "java.codeAction.sortMembers.avoidVolatileChanges": true,
+    "java.completion.maxResults": 50,
+    "java.completion.guessMethodArguments": "insertBestGuessedArguments",
+    "git.confirmSync": false,
+    "editor.rulers": [
+        {
+            "column": 80,
+            "color": "#FF000044"
+        }
+    ],
+}
