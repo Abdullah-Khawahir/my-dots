@@ -125,8 +125,9 @@ export CHROME_EXECUTABLE=/usr/bin/google-chrome-stable
 # adding android tools to PATH
 export PATH=/home/abtuly/Android/Sdk/platform-tools/:$PATH
 
-export JAVA_HOME=/usr/lib/jvm/java-17-openjdk
+export JAVA_HOME=/usr/lib/jvm/java-11-openjdk
 export PATH=$JAVA_HOME/bin:$PATH
+
 
 # Load Angular CLI autocompletion.
 source <(ng completion script)
